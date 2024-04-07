@@ -54,7 +54,7 @@ const Sidebar = ({ docs }) => {
 
         setRootNodes([...roots]);
         setNonRootNodesGrouped({...nonRoots});
-    }, [pathName])
+    }, [docs, pathName])
 
 
 
